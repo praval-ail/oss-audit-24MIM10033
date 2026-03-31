@@ -13,8 +13,6 @@ OUTPUT="manifesto_$(whoami).txt" # saving the manifesto to a file
 
 # creating a paragraph using $TOOL, $FREEDOM, $BUILD
 # and write it to $OUTPUT using echo and >>
-# ---------------------------------------------------------
-
 # We use a single '>' first to create/overwrite the file, ensuring a fresh start
 echo "--- My Open Source Manifesto ($DATE) ---" > "$OUTPUT"
 echo "" >> "$OUTPUT"
